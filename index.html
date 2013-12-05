@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head lang="en">
+        <meta charset="utf-8">
+        <title>Custom Plunker</title>  
+        <link rel="stylesheet" type="text/css" href="http://angular-ui.github.com/ng-grid/css/ng-grid.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+        <script type="text/javascript" src="http://angular-ui.github.com/ng-grid/lib/ng-grid.debug.js"></script>
+        <script type="text/javascript" src="assets/js/custom.js"></script>
+    </head>
+    <body ng-controller="testJob">
+	     <h3 align="center">Demo Page</h3>
+		 <div class="span4 offset2 well">
+	     <button class="btn btn-block" ng-click="loadGrid()">Load the data</button>
+		 </div>
+		 <div class="span10">
+         <div class="gridStyle" ng-grid="gridOptions" ng-hide="gridData"></div>
+		 </div>
+    </body>
+</html>

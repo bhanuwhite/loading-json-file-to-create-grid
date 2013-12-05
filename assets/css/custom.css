@@ -1,0 +1,32 @@
+/*
+* customized cms
+*/
+.borColor {
+   border: 3px solid #D3D3D3;
+}
+.minHght{
+   min-height:100px !important; 
+}
+.rPanelHeight{
+   min-height:150px !important;   
+}
+.rPanelHeight2{
+   min-height:365px !important;   
+}
+.lPanelBottom{
+  min-height:210px !important;    
+}
+.pad10{
+    padding:10px;
+}
+.mr20{
+    margin-top:20px;
+}
+.error{
+    color:red;
+}
+.gridStyle {
+border: 1px solid rgb(212,212,212);
+width: 400px;
+height: 300px
+}
